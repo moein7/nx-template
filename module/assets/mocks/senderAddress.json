@@ -1,0 +1,17 @@
+{
+  "senderMockAddress": {
+    "senderId": "newId",
+    "senderAddress": "16 Wyndham St",
+    "senderEmail": "",
+    "senderCity": "Bridgend",
+    "senderName": "",
+    "senderPostcode": "CF31 1EF",
+    "senderPhoneNumber": "",
+    "senderCompanyName": "",
+    "senderSpecifyingInfo": "Mid Glamorgan",
+    "senderCountry": {
+      "code": "GB",
+      "name": "United Kingdom"
+    }
+  }
+}
