@@ -1,0 +1,9 @@
+{
+  "name": "adoptable",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/adoptable",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project adoptable --web",
+  "targets": {}
+}

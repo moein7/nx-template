@@ -1,0 +1,9 @@
+{
+  "name": "adoptable-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/adoptable-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["adoptable"],
+  "// targets": "to see all targets run: nx show project adoptable-e2e --web",
+  "targets": {}
+}

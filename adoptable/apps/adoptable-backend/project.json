@@ -1,0 +1,26 @@
+{
+  "name": "adoptable-backend",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/adoptable-backend/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "dependsOn": ["build"],
+      "options": {
+        "buildTarget": "adoptable-backend:build",
+        "runBuildTargetDependencies": false
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "adoptable-backend:build:development"
+        },
+        "production": {
+          "buildTarget": "adoptable-backend:build:production"
+        }
+      }
+    }
+  }
+}
